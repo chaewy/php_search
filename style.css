@@ -1,0 +1,55 @@
+
+#block {
+    margin: 10% auto; /* Center the block div vertically and horizontally */
+    width: 60%; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.form {
+    border: 1px solid grey; /* Thin grey border for all forms */
+    padding: 15px; /* Add padding for better visual appearance */
+    margin-bottom: 20px; /* Add space between forms */
+}
+
+.input-style {
+    border: 1px solid grey; /* Thin grey border */
+    border-radius: 5px; /* Add a slight border radius */
+    padding: 8px; /* Add padding for better visual appearance */
+}
+
+label {
+    font-size: 1.5em; /* Set label font size to be similar to h3 */
+}
+
+#button {
+    background-color: grey; /* Grey background color */
+    color: black; /* Black text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add a slight border radius */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Add hover effect for the button */
+#button:hover {
+    background-color: darkgrey;
+}
+
+.result-item {
+    border: 1px solid #757575;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+.username {
+    color: blue;
+}
+
+.car-name {
+    color: green;
+}
+
+.car-price {
+    color: red;
+}
